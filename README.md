@@ -1,16 +1,38 @@
-# React + Vite
+# 購物天地 - 電商購物平台
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+一個使用 React + Vite + TailwindCSS 打造的現代電商網站。
 
-Currently, two official plugins are available:
+## 功能特色
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🏠 **首頁** - Hero 橫幅、商品分類、精選商品、電子報訂閱
+- 🛍️ **商店頁面** - 完整商品列表、搜尋、分類篩選
+- 📦 **商品詳情** - 詳細商品資訊、評分、數量選擇、加入購物車
+- 🛒 **購物車** - 商品管理、數量調整、訂單摘要
+- 💳 **結帳** - 收件人資料填寫、多種付款方式
 
-## React Compiler
+## 商品分類
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 電子產品
+- 服飾
+- 家居生活
+- 美妝保養
 
-## Expanding the ESLint configuration
+## 技術棧
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://react.dev/) + [Vite](https://vite.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [Lucide React](https://lucide.dev/)
+
+## 開始使用
+
+```bash
+npm install
+npm run dev
+```
+
+Build 生產版本：
+
+```bash
+npm run build
+```
